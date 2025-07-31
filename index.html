@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Girlfriend's Day ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="images/styles.css">
+</head>
+<body>
+  <audio id="bgMusic" src="images/Dheema.mp3" loop></audio>
+
+  <div class="start-screen">
+    <h1>Hey Bubu ❤️</h1>
+    <p>I made something special just for you...</p>
+    <button onclick="startExperience()">Start Our Story</button>
+  </div>
+
+  <div id="story" style="display: none">
+    <section id="section1"></section>
+    <section id="section2"></section>
+    <section id="section3"></section>
+    <section id="section4"></section>
+
+    <section class="carousel">
+      <h2>Our Memories 📸</h2>
+      <div class="carousel-track">
+        <img src="images/1.jpg" alt="Memory 1">
+        <img src="images/2.jpg" alt="Memory 2">
+        <img src="images/3.jpg" alt="Memory 3">
+        <img src="images/4.jpg" alt="Memory 4">
+        <img src="images/5.jpg" alt="Memory 5">
+        <img src="images/6.jpg" alt="Memory 6">
+        <img src="images/7.jpg" alt="Memory 7">
+        <img src="images/9.jpg" alt="Memory 8">
+        <img src="images/10.jpg" alt="Memory 9">
+        <img src="images/11.jpg" alt="Memory 10">
+        <img src="images/12.jpg" alt="Memory 11">
+        <img src="images/13.jpg" alt="Memory 12">
+        <img src="images/14.jpg" alt="Memory 13">
+        <img src="images/15.jpg" alt="Memory 14">
+        <!-- Duplicate set for infinite loop -->
+        <img src="images/1.jpg" alt="Memory 1">
+        <img src="images/2.jpg" alt="Memory 2">
+        <img src="images/3.jpg" alt="Memory 3">
+        <img src="images/4.jpg" alt="Memory 4">
+        <img src="images/5.jpg" alt="Memory 5">
+        <img src="images/6.jpg" alt="Memory 6">
+        <img src="images/7.jpg" alt="Memory 7">
+        <img src="images/9.jpg" alt="Memory 8">
+        <img src="images/10.jpg" alt="Memory 9">
+        <img src="images/11.jpg" alt="Memory 10">
+        <img src="images/12.jpg" alt="Memory 11">
+        <img src="images/13.jpg" alt="Memory 12">
+        <img src="images/14.jpg" alt="Memory 13">
+        <img src="images/15.jpg" alt="Memory 14">
+        <img src="images/17.jpg" alt="Memory 15">
+      </div>
+    </section>
+
+    <section class="quotes">
+      <h2>Love Quotes 💌</h2>
+      <p id="quoteText"></p>
+    </section>
+
+    <section class="grid-gallery">
+      <h2>Some More Us 📷</h2>
+      <div class="grid-container">
+        <img src="images/16.jpg" alt="Pic 1">
+        <img src="images/18.jpg" alt="Pic 2">
+        <img src="images/19.jpg" alt="Pic 3">
+        <img src="images/20.jpg" alt="Pic 4">
+        <img src="images/21.jpg" alt="Pic 5">
+      </div>
+    </section>
+
+    <section id="section5">
+      <h2>Reasons Why I Love You 💘</h2>
+      <div class="reason-box">
+        <p id="reasonText">Click the button to see</p>
+        <button class="reason-button" onclick="nextReason()">Show Me One</button>
+      </div>
+    </section>
+
+    <section class="final">
+      ❤️ I'm lucky to love you. Happy Girlfriend's Day Cupcake❤️
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
